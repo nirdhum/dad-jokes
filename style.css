@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Pathway Extreme', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    background-color: #F15A59;
+    padding: 20px;
+}
+
+.container {
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+    padding: 50px 30px;
+    max-width: 100%;
+    width: 800px;
+    text-align: center;
+}
+
+h2 {
+    margin: 0;
+    letter-spacing: 2px;
+    color: #F15A59;
+    font-weight: 800;
+}
+
+.joke {
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    line-height: 42px;
+    margin: 50px auto;
+    max-width: 600px;
+    font-weight: 500;
+}
+
+.btn {
+    font-family: inherit;
+    background-color: #F15A59;
+    color: aliceblue;
+    border-radius: 10px;
+    border: none;
+    padding: 15px 40px;
+    font-size: 1.2rem;
+    letter-spacing: 0.8px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn:active {
+    transform: scale(0.99);
+}
+
+.btn:focus {
+    outline: none;
+}
